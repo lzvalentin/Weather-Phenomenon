@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+#header {
+    background-image: linear-gradient(to right, rgb(121, 152, 199) , rgb(33, 23, 175));
+    color: white;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    width: 100%;
+    padding: 30px;
+
+      }
+
+/* search section */
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+#results{
+display: flex;
+justify-content: right;
+text-align: center;
+}
+

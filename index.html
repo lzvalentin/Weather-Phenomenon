@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <!-- api -->
-</head>
-<body>
-<!-- top weather app section -->
 
-<!-- add modal with selection-->
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Weather App</title>
+ 
+
+  
+</head>
+
+<header id="header">
+  <h1>Weather Forecast</h1>
+</header>
+
+<body>
+  <!-- search-->
+  <div class="row col-md-3 search-box">
+    <label for="site-search">Search for city:</label>
+    <input type="search" id="search-engine" >
+  </div>
+  <button id="search-btn">Search</button>  
+<!--  -->
+  <div class="row card col-md-9" id="results">
+  <div card class="weather">
+    <h2 class="city">Seattle</h2>
+    <div class="description">Cloudy</div>
+    <div class="temp">Temp: 30°</div>
+    <div class="wind">Wind: 2 MPH</div>
+    <div class="humidity">Humidity: 46%</div>
+    <div class="uv-index">UV-Index: 0.47</div>
+  </div>
+  </div>
+
+  <!-- 5 day -->
+ 
+
 </body>
+<!-- javascript -->
+<!-- <script src="script.js"></script>
+</script> -->
+
 </html>
