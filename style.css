@@ -1,4 +1,4 @@
-/* * {
+ * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,20 +14,5 @@
 
       }
 
-/* search section */
-/* label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
-}
 
-input,
-label {
-    margin: .4rem 0;
-}
 
-#results{
-display: flex;
-justify-content: right;
-text-align: center;
-}
- */ 
